@@ -13,32 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面元法/压力系数.md",
-                "mode": "preview",
+                "file": "SUAVE_Lecture.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "压力系数"
-            }
-          }
-        ]
-      },
-      {
-        "id": "8fe369aeb70a2cf9",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8d7f999a850acbfb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作日志/2026.4/2026.4.18.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2026.4.18"
+              "title": "SUAVE_Lecture"
             }
           }
         ]
@@ -203,8 +183,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ab60464022954fba",
+  "active": "6ffedfea06e4fcbf",
   "lastOpenFiles": [
+    "SUAVE_Lecture.md",
+    "面元法/压力系数.md",
     "矩阵论/谱半径.md",
     "矩阵论/线性空间.md",
     "矩阵论/矩阵范数.md",
@@ -230,8 +212,6 @@
     "回收站/矩阵论/广义逆.md",
     "回收站/矩阵论/矩阵范数.md",
     "工作日志/2026.4/2026.4.18.md",
-    "随机过程/习题1.md",
-    "工作日志/模板.md",
     "随机过程",
     "工作日志/2026.4",
     "工作日志/2026.3",
