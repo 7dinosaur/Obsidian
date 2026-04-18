@@ -1,0 +1,245 @@
+{
+  "main": {
+    "id": "d3d4a281c551a96a",
+    "type": "split",
+    "children": [
+      {
+        "id": "bbd0a672355373f8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ffedfea06e4fcbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面元法/压力系数.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "压力系数"
+            }
+          }
+        ]
+      },
+      {
+        "id": "8fe369aeb70a2cf9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8d7f999a850acbfb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作日志/2026.4/2026.4.18.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2026.4.18"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "761e79ce0d7005e6",
+    "type": "split",
+    "children": [
+      {
+        "id": "689c5ab5f6d9d445",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab60464022954fba",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "6a998e802e92f946",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "0910855da3871408",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "5fe46fd5f59c73ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ba98a114d64bc85",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62f2cf8704e08052",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "欢迎.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "欢迎 的反向链接列表"
+            }
+          },
+          {
+            "id": "b143b0aaeabc91c0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "欢迎.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "欢迎 的出链列表"
+            }
+          },
+          {
+            "id": "613cc68764d7e840",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "e2d2552c59c88620",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "268e3e1483519f8a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "欢迎.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "欢迎 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:新建数据库": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "ab60464022954fba",
+  "lastOpenFiles": [
+    "矩阵论/谱半径.md",
+    "矩阵论/线性空间.md",
+    "矩阵论/矩阵范数.md",
+    "矩阵论/矩阵指数.md",
+    "矩阵论/欢迎.md",
+    "矩阵论/满秩分解.md",
+    "矩阵论/广义逆.md",
+    "矩阵论/矩阵函数.md",
+    "矩阵论/创建链接.md",
+    "矩阵论/README.md",
+    "矩阵论/Rayleigh商.md",
+    "矩阵论/README.en.md",
+    "矩阵论/Householder变换.md",
+    "矩阵论/Gerschgorin定理.md",
+    "矩阵论",
+    "回收站/矩阵论/README.md",
+    "回收站/矩阵论/README.en.md",
+    "回收站/矩阵论/谱半径.md",
+    "回收站/矩阵论/矩阵函数.md",
+    "回收站/矩阵论/Rayleigh商.md",
+    "回收站/自然基金/review of sonic boom prediction and reduction methods for next generation of supersonic aircraft.md",
+    "回收站/矩阵论/矩阵指数.md",
+    "回收站/矩阵论/广义逆.md",
+    "回收站/矩阵论/矩阵范数.md",
+    "工作日志/2026.4/2026.4.18.md",
+    "随机过程/习题1.md",
+    "工作日志/模板.md",
+    "随机过程",
+    "工作日志/2026.4",
+    "工作日志/2026.3",
+    "SUAVE",
+    "工作日志",
+    "回收站",
+    "未命名 1.base",
+    "未命名.base",
+    "未命名 2.base"
+  ]
+}
