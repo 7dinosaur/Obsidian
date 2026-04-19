@@ -13,32 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tmp.md",
+                "file": "SUAVE_Lecture.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "tmp"
-            }
-          }
-        ]
-      },
-      {
-        "id": "8fe369aeb70a2cf9",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8d7f999a850acbfb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tmp.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "tmp"
+              "title": "SUAVE_Lecture"
             }
           }
         ]
@@ -205,8 +185,9 @@
   },
   "active": "6ffedfea06e4fcbf",
   "lastOpenFiles": [
-    "工作日志/2026.4.19.md",
+    "Design Conceptual Aircraft via SUAVE.pptx",
     "tmp.md",
+    "工作日志/2026.4.19.md",
     "工作日志/2026.4/2026.4.18.md",
     "面元法/压力系数.md",
     "回收站/矩阵论/矩阵指数.md",
@@ -231,7 +212,6 @@
     "回收站/矩阵论/谱半径.md",
     "回收站/矩阵论/矩阵函数.md",
     "回收站/矩阵论/Rayleigh商.md",
-    "回收站/自然基金/review of sonic boom prediction and reduction methods for next generation of supersonic aircraft.md",
     "随机过程",
     "工作日志/2026.4",
     "工作日志/2026.3",
