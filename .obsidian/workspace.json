@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tmp.md",
+                "file": "工作日志/2026.4.22.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "tmp"
+              "title": "2026.4.22"
             }
           }
         ]
@@ -205,12 +205,24 @@
   },
   "active": "6ffedfea06e4fcbf",
   "lastOpenFiles": [
-    "工作日志/2026.4.19.md",
     "tmp.md",
+    "工作日志/2026.4.22.md",
+    "SUAVE_Lecture.md",
+    "校稿.md",
+    "工作日志/2026.4.21.md",
     "工作日志/2026.4/2026.4.18.md",
+    "工作日志/2026.4.20.md",
+    "工作日志/模板.md",
+    "工作日志/2026.4/2026.4.10.md",
+    "工作日志/2026.4/2026.4.13.md",
+    "工作日志/2026.4/2026.4.11.md",
+    "工作日志/2026.4/2026.4.17.md",
+    "工作日志/2026.4/2026.4.16.md",
+    "工作日志/2026.4/2026.4.15.md",
+    "工作日志/2026.4/2026.4.14.md",
+    "工作日志/2026.4.19.md",
     "面元法/压力系数.md",
     "回收站/矩阵论/矩阵指数.md",
-    "SUAVE_Lecture.md",
     "矩阵论/谱半径.md",
     "矩阵论/线性空间.md",
     "矩阵论/矩阵范数.md",
@@ -219,19 +231,7 @@
     "矩阵论/满秩分解.md",
     "矩阵论/广义逆.md",
     "矩阵论/矩阵函数.md",
-    "矩阵论/创建链接.md",
-    "矩阵论/README.md",
-    "矩阵论/Rayleigh商.md",
-    "矩阵论/README.en.md",
-    "矩阵论/Householder变换.md",
-    "矩阵论/Gerschgorin定理.md",
     "矩阵论",
-    "回收站/矩阵论/README.md",
-    "回收站/矩阵论/README.en.md",
-    "回收站/矩阵论/谱半径.md",
-    "回收站/矩阵论/矩阵函数.md",
-    "回收站/矩阵论/Rayleigh商.md",
-    "回收站/自然基金/review of sonic boom prediction and reduction methods for next generation of supersonic aircraft.md",
     "随机过程",
     "工作日志/2026.4",
     "工作日志/2026.3",
