@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SUAVE_Lecture.md",
+                "file": "工作日志/2026.4.24.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "SUAVE_Lecture"
+              "title": "2026.4.24"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tmp.md",
+                "file": "工作日志/2026.4.24.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "tmp"
+              "title": "2026.4.24"
             }
           }
         ]
@@ -205,10 +205,12 @@
   },
   "active": "6ffedfea06e4fcbf",
   "lastOpenFiles": [
-    "工作日志/2026.4.22.md",
-    "Design Conceptual Aircraft via SUAVE.pptx",
     "tmp.md",
+    "工作日志/2026.4.24.md",
+    "工作日志/2026.4.23.md",
+    "工作日志/2026.4.22.md",
     "SUAVE_Lecture.md",
+    "Design Conceptual Aircraft via SUAVE.pptx",
     "校稿.md",
     "工作日志/2026.4.21.md",
     "工作日志/2026.4/2026.4.18.md",
@@ -230,7 +232,6 @@
     "矩阵论/矩阵指数.md",
     "矩阵论/欢迎.md",
     "矩阵论/满秩分解.md",
-    "矩阵论/广义逆.md",
     "矩阵论",
     "随机过程",
     "工作日志/2026.4",
