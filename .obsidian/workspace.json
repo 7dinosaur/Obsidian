@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作日志/2026.4.24.md",
+                "file": "SUAVE_Lecture.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026.4.24"
+              "title": "SUAVE_Lecture"
             }
           }
         ]
@@ -205,10 +205,14 @@
   },
   "active": "6ffedfea06e4fcbf",
   "lastOpenFiles": [
+    "ppt1DC1.tmp",
+    "ppt9B0C.tmp",
+    "ppt5398.tmp",
+    "pptA5D8.tmp",
+    "工作日志/2026.4.24.md",
     "Design Conceptual Aircraft via SUAVE.pptx",
     "base_ppt.pptx",
     "tmp.md",
-    "工作日志/2026.4.24.md",
     "工作日志/2026.4.23.md",
     "工作日志/2026.4.22.md",
     "SUAVE_Lecture.md",
@@ -236,10 +240,6 @@
     "随机过程",
     "工作日志/2026.4",
     "工作日志/2026.3",
-    "SUAVE",
-    "工作日志",
-    "回收站",
-    "未命名 1.base",
-    "未命名.base"
+    "SUAVE"
   ]
 }
