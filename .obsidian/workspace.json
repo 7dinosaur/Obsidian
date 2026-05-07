@@ -13,32 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SUAVE_Lecture.md",
-                "mode": "source",
+                "file": "随机过程/随机过程模拟试题2.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "SUAVE_Lecture"
+              "title": "随机过程模拟试题2"
             }
           }
         ]
       },
       {
-        "id": "8fe369aeb70a2cf9",
+        "id": "69a9be8a3fc600da",
         "type": "tabs",
         "children": [
           {
-            "id": "8d7f999a850acbfb",
+            "id": "b5216e5830514f87",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作日志/2026.4.24.md",
+                "file": "随机过程/随机过程模拟试题2.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026.4.24"
+              "title": "随机过程模拟试题2"
             }
           }
         ]
@@ -205,41 +205,40 @@
   },
   "active": "6ffedfea06e4fcbf",
   "lastOpenFiles": [
-    "pptA0B4.tmp",
-    "~WRL1211.tmp",
-    "~WRD1074.tmp",
-    "~WRL3065.tmp",
-    "~WRD2933.tmp",
-    "pptC38D.tmp",
-    "~WRL0535.tmp",
-    "~WRD0402.tmp",
-    "pptDFBB.tmp",
-    "~$Design Conceptual Aircraft via SUAVE.pptx",
-    "pptFF26.tmp",
+    "some_idea/cVAE_JSGD_low_boom/3_工作计划.md",
+    "some_idea/cVAE_JSGD_low_boom/2_论文框架与摘要.md",
+    "some_idea/cVAE_JSGD_low_boom/1_讨论记录.md",
+    "随机过程/随机过程模拟试题2.md",
+    "随机过程/随机过程模拟试题2.md.tmp.36156.490db61c7e83",
+    "随机过程/随机过程模拟试题2.md.tmp.36156.cd459ddfc952",
+    "随机过程/随机过程模拟试题2.md.tmp.36156.f2fefab66a70",
+    "随机过程/随机过程模拟试题2.md.tmp.36156.77e7c1fd8135",
+    "随机过程/随机过程模拟试题2.md.tmp.36156.fb57e1577b0f",
+    "随机过程/随机过程模拟试题2.md.tmp.36156.8df110fb2cd0",
+    "随机过程/随机过程模拟试题2.md.tmp.36156.19300ebce2b2",
+    "随机过程/随机过程模拟试题2.md.tmp.36156.9295e627ced2",
+    "随机过程/常见分布.md",
+    "随机过程/随机过程模拟试题2.md.tmp.36156.af4a7fea5cb4",
+    "随机过程/随机过程模拟试题.md",
+    "随机过程/常见分布.md.tmp.36156.7488cde01932",
+    "随机过程/概率论基本定义.md",
+    "随机过程/常用公式.md",
+    "随机过程/常用级数.md",
+    "随机过程/Fourier变换.md",
+    "随机过程/第二章常见定义.md",
+    "随机过程/第四章常见定义.md",
+    "随机过程/第三章常见定义.md",
+    "随机过程/第一章.md",
     "tmp.md",
-    "SUAVE_Lecture.md",
-    "工作日志/2026.4.24.md",
-    "工作日志/2026.4.23.md",
-    "工作日志/2026.4.22.md",
-    "校稿.md",
-    "工作日志/2026.4.21.md",
-    "工作日志/2026.4/2026.4.18.md",
-    "工作日志/2026.4.20.md",
-    "工作日志/模板.md",
+    "工作日志/2026.4.30.md",
+    "some_idea/cVAE_JSGD_low_boom/4_汇报框架.md",
     "工作日志/2026.4/2026.4.10.md",
-    "工作日志/2026.4/2026.4.13.md",
+    "工作日志/2026.4/2026.4.9.md",
     "工作日志/2026.4/2026.4.11.md",
-    "工作日志/2026.4/2026.4.17.md",
-    "工作日志/2026.4/2026.4.16.md",
-    "工作日志/2026.4/2026.4.15.md",
+    "工作日志/2026.4/2026.4.29.md",
     "工作日志/2026.4/2026.4.14.md",
-    "工作日志/2026.4.19.md",
-    "面元法/压力系数.md",
-    "回收站/矩阵论/矩阵指数.md",
-    "矩阵论/谱半径.md",
-    "矩阵论/线性空间.md",
-    "矩阵论/矩阵范数.md",
-    "矩阵论/矩阵指数.md",
-    "矩阵论/欢迎.md"
+    "工作日志/2026.4/2026.4.15.md",
+    "工作日志/2026.4/2026.4.16.md",
+    "工作日志/2026.4/2026.4.17.md"
   ]
 }

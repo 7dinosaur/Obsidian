@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import pikepdf; print\\('pikepdf available'\\)\")",
+      "Bash(python3 -c \"import PyPDF2; print\\('PyPDF2 available'\\)\")",
+      "Bash(python3 -c \"import pdfplumber; print\\('pdfplumber available'\\)\")",
+      "Bash(pdftotext \"D:/hyper_ly/05_Personal/05_Obsidian/三真千机百法丝引球/随机过程/2025随机过程试题\\(含参考解答ver3讨论完\\).pdf\" /tmp/exam1.txt)",
+      "Bash(echo \"Exit: $?\")",
+      "Bash(pdftotext \"D:/hyper_ly/05_Personal/05_Obsidian/三真千机百法丝引球/随机过程/2025随机过程试题\\(含参考解答\\) .pdf\" /tmp/exam2.txt)",
+      "Bash(pdftotext \"D:/hyper_ly/05_Personal/05_Obsidian/三真千机百法丝引球/随机过程/SP_solutions_final_2026.pdf\" /tmp/sol.txt)",
+      "Bash(grep -n \"大题\\\\|\\\\.\\\\s*$\\\\|证明\\\\|计算\\\\|试求\\\\|求\\\\|设\" /tmp/sol.txt)"
+    ]
+  }
+}
