@@ -1,0 +1,16 @@
+{
+  "id": "conv-1778231367999-yidq7nuao",
+  "providerId": "claude",
+  "title": "我需要检测你是否应用了我设置的环境变量，介绍你自己",
+  "titleGenerationStatus": "pending",
+  "createdAt": 1778231368002,
+  "updatedAt": 1778231997468,
+  "lastResponseAt": 1778231923863,
+  "sessionId": "c71d7cdb-dda8-4ccc-bc72-c29d8ce45110",
+  "providerState": {
+    "providerSessionId": "c71d7cdb-dda8-4ccc-bc72-c29d8ce45110",
+    "previousProviderSessionIds": [
+      "68b1db94-f615-4a8f-b0cb-b2c46da765b6"
+    ]
+  }
+}
