@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ICAS/Framework.md",
+                "file": "Math/微积分基本定理/链式法则.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Framework"
+              "title": "链式法则"
             }
           }
         ],
@@ -248,11 +248,13 @@
   },
   "active": "75216a5ef69f5c73",
   "lastOpenFiles": [
+    "气动声学理论基础/散度定理.md",
+    "Math/微积分基本定理/链式法则.md",
+    "Math/微积分基本定理",
+    "ICAS/Framework.md",
     "push.sh",
     "新建文本文档.txt",
     "气动声学理论基础/不知名关系.md",
-    "气动声学理论基础/散度定理.md",
-    "ICAS/Framework.md",
     "ICAS/论文叙事框架.md",
     "preamble.sty",
     "工作日志/2026.5/2026.5.8.md",
@@ -271,8 +273,6 @@
     "论文叙事框架.md.tmp.4428.203ef8213cfa",
     "论文叙事框架.md.tmp.4428.b7683f927f45",
     "论文叙事框架.md.tmp.4428.7cbe65f2b4c5",
-    "论文叙事框架.md.tmp.4428.38f71a75c3ee",
-    "论文叙事框架.md.tmp.4428.5ac97ce74b3d",
     "Math/矩阵论/Rayleigh商.md",
     "Math/矩阵论/矩阵范数.md",
     "Math/矩阵论/README.en.md",
