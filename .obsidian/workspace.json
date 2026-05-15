@@ -6,6 +6,7 @@
       {
         "id": "69a9be8a3fc600da",
         "type": "tabs",
+        "dimension": 51.849642004773266,
         "children": [
           {
             "id": "b5216e5830514f87",
@@ -13,19 +14,49 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "论文叙事框架.md",
-                "mode": "preview",
+                "file": "ICAS/论文叙事框架.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "论文叙事框架"
             }
+          },
+          {
+            "id": "f0f15985abf6c31f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ICAS/Framework.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Framework"
+            }
+          },
+          {
+            "id": "75216a5ef69f5c73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "气动声学理论基础/不知名关系.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "不知名关系"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "013dfccd1ee36303",
         "type": "tabs",
+        "dimension": 48.150357995226734,
         "children": [
           {
             "id": "4b550fb5843b7598",
@@ -33,12 +64,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/随机过程/Fourier变换.md",
+                "file": "气动声学理论基础/不知名关系.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Fourier变换"
+              "title": "不知名关系"
             }
           }
         ]
@@ -114,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "论文叙事框架.md",
+                "file": "气动声学理论基础/散度定理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +155,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "论文叙事框架 的反向链接列表"
+              "title": "散度定理 的反向链接列表"
             }
           },
           {
@@ -176,13 +207,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "论文叙事框架.md",
+                "file": "气动声学理论基础/散度定理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "论文叙事框架 的大纲"
+              "title": "散度定理 的大纲"
             }
           },
           {
@@ -215,43 +246,43 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "b5216e5830514f87",
+  "active": "4b550fb5843b7598",
   "lastOpenFiles": [
+    "气动声学理论基础/散度定理.md",
+    "气动声学理论基础/不知名关系.md",
+    "ICAS/Framework.md",
+    "ICAS/论文叙事框架.md",
+    "preamble.sty",
+    "新建文本文档.txt",
+    "工作日志/2026.5/2026.5.8.md",
+    "气动声学理论基础",
+    "未命名.md",
+    "组会汇报_2026.5.13.md",
+    "工作日志/2026.5.15.md",
+    "ICAS/tmp.md",
+    "工作日志/2026.5/2026.5.14.md",
+    "工作日志/模板.md",
+    "工作日志/2026.5/2026.5.12.md",
+    "组会汇报_2026.5.13.md.tmp.33472.f47f84ab82fb",
+    "论文叙事框架 1.md",
+    "ICAS",
+    "Math/随机过程/Fourier变换.md",
     "论文叙事框架.md.tmp.4428.203ef8213cfa",
     "论文叙事框架.md.tmp.4428.b7683f927f45",
     "论文叙事框架.md.tmp.4428.7cbe65f2b4c5",
     "论文叙事框架.md.tmp.4428.38f71a75c3ee",
     "论文叙事框架.md.tmp.4428.5ac97ce74b3d",
-    "Math/随机过程/Fourier变换.md",
     "Math/矩阵论/Rayleigh商.md",
     "Math/矩阵论/矩阵范数.md",
     "Math/矩阵论/README.en.md",
     "Math/矩阵论/README.md",
     "Math/矩阵论/欢迎.md",
-    "工作日志/2026.5.9.md",
-    "论文叙事框架.md",
-    "tmp.md",
-    "论文叙事框架.md.tmp.4428.d1e08ffafc3f",
+    "工作日志/2026.5/2026.5.9.md",
     "素材.md",
-    "工作日志/2026.5.10.md",
+    "工作日志/2026.5/2026.5.10.md",
     "自然基金.md",
     "待办.md",
     "航空基金指南.md",
-    "工作日志/2026.5.8.md",
-    "签证材料.md",
-    "工作日志/2026.5",
-    "Math/随机过程/随机过程模拟试题2.md",
-    "Math/随机过程/随机过程模拟试题.md",
-    "Math/随机过程/第二章常见定义.md",
-    "Math/随机过程/第四章常见定义.md",
-    "Math/随机过程/第三章常见定义.md",
-    "Math/随机过程/概率论基本定义.md",
-    "Math/随机过程/第一章.md",
-    "Math/随机过程/常用公式.md",
-    "Math/随机过程/常见分布.md",
-    "Math/随机过程",
-    "Math",
-    "随机过程/随机过程模拟试题2.md.tmp.36156.490db61c7e83",
-    "随机过程/随机过程模拟试题2.md.tmp.36156.cd459ddfc952"
+    "签证材料.md"
   ]
 }
