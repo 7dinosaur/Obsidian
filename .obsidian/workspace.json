@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/微积分基本定理/链式法则.md",
+                "file": "ICAS/Framework.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "链式法则"
+              "title": "Framework"
             }
           }
         ],
@@ -64,12 +64,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "气动声学理论基础/不知名关系.md",
+                "file": "ICAS/tmp.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "不知名关系"
+              "title": "tmp"
             }
           }
         ]
@@ -222,8 +222,8 @@
             "state": {
               "type": "claudian-view",
               "state": {},
-              "icon": "bot",
-              "title": "Claudian"
+              "icon": "lucide-ghost",
+              "title": "claudian-view"
             }
           }
         ],
@@ -242,27 +242,26 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "claudian:Open Claudian": false
+      "command-palette:打开命令面板": false
     }
   },
   "active": "75216a5ef69f5c73",
   "lastOpenFiles": [
-    "气动声学理论基础/散度定理.md",
-    "Math/微积分基本定理/链式法则.md",
-    "Math/微积分基本定理",
+    "ICAS/tmp.md",
+    "ICAS/论文叙事框架.md",
     "ICAS/Framework.md",
+    "气动声学理论基础/不知名关系.md",
+    "Math/微积分基本定理/链式法则.md",
+    "气动声学理论基础/散度定理.md",
+    "Math/微积分基本定理",
     "push.sh",
     "新建文本文档.txt",
-    "气动声学理论基础/不知名关系.md",
-    "ICAS/论文叙事框架.md",
     "preamble.sty",
     "工作日志/2026.5/2026.5.8.md",
     "气动声学理论基础",
     "未命名.md",
     "组会汇报_2026.5.13.md",
     "工作日志/2026.5.15.md",
-    "ICAS/tmp.md",
     "工作日志/2026.5/2026.5.14.md",
     "工作日志/模板.md",
     "工作日志/2026.5/2026.5.12.md",
