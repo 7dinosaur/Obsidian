@@ -1,23 +1,23 @@
 ## Low Boom Design and Analysis of a Blended-wing-body Configuration for Large-sized Supersonic Transport
-**Why should we do**
-Developing next-generation supersonic transport (SST) is one of the most critical directions for future civil transport, but most existing SST configuration have relatively small seating capacity, which limits their commercial potential.
-**How to do**
-Aiming at this issue, this paper proposed a 160-seats large supersonic blended-wing-body transport (SBWB) configuration.
-**What do you do**
-A parametric method for SBWB is developed, and the JSGD inverse design is implemented based on this method. Subsequently, the effects of winglet length and sweep angle on sonic boom characteristics are investigated.
-**what is the result**
-Based on the above research, a low boom design for the 160-seats SBWB configuration is performed. The ground boom intensity value is optimized to xx PLdB. In summary, the SBWB can effectively improve passenger capacity, and demonstrates favorable feasibility in sonic boom mitigation.
+Developing next-generation supersonic transport (SST) is one of the most critical directions for future civil aviation, yet most existing SST concepts carry relatively few passengers, limiting their commercial viability. To address this, this paper proposes a 160-seat large supersonic blended-wing-body (SBWB) transport configuration. A full-aircraft Class-Shape Transformation (CST) parameterization method is developed to replace the conventional segmented free-form deformation approach, ensuring geometric continuity across the entire configuration—a critical requirement for BWB where surface distortions incur non-negligible aerodynamic penalties. Under the 160-seat cabin volume constraint, a baseline SBWB configuration is generated and its aerodynamic and sonic boom characteristics are analyzed. The baseline exhibits a ground perceived loudness of 105 PLdB, with rear-body over-expansion—rather than nose shaping—identified as the dominant noise source, driven by the limited aft-body closure length imposed by the long passenger cabin. To explore the potential for boom mitigation, the Jones–Seebass–George–Darden (JSGD) inverse design method and the parametric near-field overpressure (PNFO) method are applied in sequence, reducing the ground PLdB from 105 to 99. The effects of winglets and a V-tail on rear-body wave dynamics are further investigated: winglets partially suppress the over-expansion by blocking wingtip disturbance propagation along the Mach cone, while V-tail contributions are limited by fuselage shielding. Overall, the SBWB demonstrates meaningful low-boom potential at the 160-seat scale—with advantages including a lower cruise angle of attack, broader lift distribution, and cabin-conformal area shaping—and provides a reference framework for future large-capacity SST low-boom design.
 ### Introduction
 **超声速民机的重要性，发展前景**
 更快的旅行速度是人类永恒的追求，超声速民机的飞行速度是传统高亚声速民机的两倍甚至更快，能够大幅提高旅行效率，促进全球经济文化交流。随着美国白宫发布。。。和X-59飞行试验的成功，超声速飞行的美好愿景更加清晰地呈现在了大众眼前，作为航空大国在这一空白领域抢占先机非常重要。。
+
+更快的旅行速度是人类永恒的追求，超声速民机的飞行速度是传统高亚声速民机的两倍甚至更快，能够大幅提高旅行效率，促进全球经济文化交流，因此新一代超声速民机是21世纪航空领域的技术高地[1,2]。美国NASA在2023年发布的航空战略规划中指出：“发展高效、经济性好、环保的超声速商用运输，将成为未来洲际旅行的规则改变者”[3]；美国白宫2025年签署“引领世界超声速飞行”总统行政令，推动美国超声速民用航空运输发展。
+
+然而声爆不达标仍然是阻碍超声速民机重返蓝天的瓶颈。以“协和”号和图-144为代表的第一代超声速民机，由于地面声爆高达105分贝，FAA和EASA等国际航空管理组织明文禁止了陆地上空超声速民航飞行，导致其最终黯然退出历史舞台[6]。为了推动超声速民机重返商业航空舞台，近年来，各国竞相启动了新一代超声速民机研究计划，并发展了一批具有代表性的低声爆布局概念方案（如图1），如美国NASA X-59[7]和洛马公司QSTA[8]，俄罗斯TsAGI Strizh[9]，日本JAXA S4[10]等。在近几十年来的研究中低声爆设计方法也得到了长足的发展，形成了许多有效的设计方法体系。
+
 **超声速民机的研究现状，已经有了一定的成果**
-超声速民机的研究最早可追溯到上个世纪的协和号和Tu-144，但均由于不同原因退出了市场。其中声爆的影响是阻碍超声速民机重返蓝天的一个关键瓶颈，在协和号退出市场的几十年后各国相继开展了新一代超声速民机的研究，并在降低声爆中作出了巨大努力。由于体积与声爆强度呈现高度正相关，新一代的超声速民机方案逐渐向
+低声爆设计方法可以分为反设计与直接设计，由于声爆问题具有较强的多极值特性，并且高可信度的声爆评估计算代价巨大，因此反设计方法是更加常用的低声爆设计方法，同时手动调整外形的试凑法也仍然是一个常用的工程设计方法。
+上个世纪60-70年代，Jones[19]、Seebass[20]、George[21]和Darden[22]基于Whitham修正线化理论，发展了著名的JSGD声爆最小化方法[23]。在给定飞机飞行高度、速度、重量、长度的情况下，该方法给出了线化假设下具有最小声爆的目标F函数（声爆扰动函数），进而可调整飞机外形来匹配目标F函数，达到快速低声爆设计的目的。美国QSP项目[24]的SSBD飞行试验表明，经JSGD低声爆设计后的头波和尾波超压峰值被大幅削弱。在国内，冯晓强[25]、丁玉临[26]等人先后开展了基于JSGD的气动布局低声爆设计，表明其在概念设计阶段具有良好的降低声爆效果。
+李和希尔兹 [20] 提出了一种面向最低地面响度的参数化等效面积分布Ae​设计目标；该参数化等效面积由带有多个控制点的 B 样条曲线定义，可通过调整控制点实现地面响度分贝值与容积需求之间的权衡。已有研究将参数化等效面积设计目标应用于混合保真度设计领域 [21]，同时该方法也被用于基于反向等效面积目标的逆向设计研究中 [22]。本文中将其统称为李 - 希尔兹 - 盖塞尔哈特（LSG）方法，这是一种确定设计目标的全新思路，相关研究已取得重大进展，近期该 LSG 方法也被应用于多款先进低声爆气动布局的设计研究中 [23,24]。除此之外，拉拉班迪 [25] 提出了一种可用于远场直接逆向设计的伴随变量方法。该方法推导并求解了增广伯格斯方程的离散伴随方程，同时推导出声爆伴随方程与计算流体力学（CFD）伴随方程之间的耦合关系式，依托设定的地面目标波形即可完成低声爆气动布局设计。丁玉临等人[1]提出了一种参数化近场超压的目标生成方法，通过优化得到低声爆的近场超压，并反向积分得到目标等效截面积分布，该方法能够在生成反设计目标的同时添加体积约束与升力约束，从而生成更具有工程可达性的低声爆目标。
 **小座级的公务机经济性不足，运营成本高，而低声爆设计方法的日渐成熟使得大型超声速民机的研究有了现实意义**
-尽管小型超声速公务机方案存在一定的市场需求，并且更容易符合低声爆限制，然而超声速民机对机场的需求以及显著高于亚声速飞机的油耗，运营成本非常高，为平衡成本势必导致其票价十分高昂，无法服务于大部分居民的出行。增加座级是提高经济性的最直接方法之一，将机场燃油等运营成本平均分配到更多乘客身上，能够在降低票价的同时也提高经济效益。而近几十年来学界在低声爆设计领域的研究逐渐成熟，也使得大型超声速民机的低声爆设计成为可能，例如西北工业大学丁玉临等人提出了128座级的大型超声速民机方案，对标的是Tu-144的座级，结合多种低声爆设计方法将该布局的声爆降低至93PLdB，这为我们揭示了一种兼顾声爆约束与经济性可能性。
-因此本文提出一款160座级的大型BWB超声速民机方案，座级对标亚声速窄体客机。分析其气动与声爆特性，对其进行初步的低声爆设计探索降低声爆的可能性，为未来大型超声速民机的研究提供参考。
+综上，在低声爆设计领域已经发展了多种有效的方法，但在低声爆设计研究中为了尽可能接近声爆许可水平，通常将研究对象聚焦于小座级的超声速公务机上，尽管小型超声速公务机方案存在一定的市场需求，并且更容易符合低声爆限制，然而超声速民机对机场的需求以及显著高于亚声速飞机的油耗，运营成本非常高，为平衡成本势必导致其票价十分高昂，无法服务于大部分居民的出行。增加座级是提高经济性的最直接方法之一，将机场燃油等运营成本平均分配到更多乘客身上，能够在降低票价的同时也提高经济效益。而近几十年来学界在低声爆设计领域的研究逐渐成熟，也使得大型超声速民机的低声爆设计成为可能，例如西北工业大学丁玉临等人提出了128座级的大型超声速民机方案，结合多种低声爆设计方法将该布局的声爆降低至93PLdB，这为我们揭示了一种兼顾声爆约束与经济性可能性。
+因此本文提出一款160座级的大型BWB超声速民机方案，座级对标亚声速窄体客机。分析其气动与声爆特性，并应用JSGD方法和PNFO方法对其进行初步的低声爆设计探索降低声爆的可能性，为未来大型超声速民机的研究提供参考。
 ### Methodology
 1. CFD method
-本文的气动分析与高可信度声爆分析均采用高可信度的CFD计算方法，控制方程为RANS方程，采用全湍流模型，时间离散格式，空间离散格式，高可信度的声爆分析采用筒状近场区域加锥形远场的分区网格，其中锥形网格的网格线与马赫角对齐以减小声爆信号在传播过程中发生的数值耗散。选择AIAA第一届声爆预测研讨会的JWB标模对本文采用的CFD方法进行验证，图为JWB标模的几何尺寸示意与声爆网格示意。
+本文的气动分析与高可信度声爆分析均采用高可信度的CFD计算方法，控制方程为RANS方程，采用全湍流模型，时间离散格式，空间离散格式。高可信度的声爆分析采用筒状近场区域加锥形远场的分区网格，其中锥形网格的网格线与马赫角对齐以减小声爆信号在传播过程中发生的数值耗散。选择AIAA第一届声爆预测研讨会的JWB标模对本文采用的CFD方法进行验证，图为JWB标模的几何尺寸示意与声爆网格示意。
 $$<图1.1 JWB标模几何示意，网格示意>$$
 将计算结果与大会参与者的结果进行对比，近场波形与大会参与者的结果基本一致，其中后体波系的差异主要是由于这部分的波系相对复杂，大会参与者计算结果的方差较大，但本文计算结果基本趋势符合大会结果集的一致性，此外气动力计算结果也与大会参考结果基本一致，证明本文的采用的CFD方法具有较高的可信度，能够支撑后续精细的波系分析研究。
 $$<图1.2 JWB近场波形对比，气动力与参考值对比>$$
@@ -37,7 +37,7 @@ $$<图1.2.3 F-5E算例>$$
 	在传统布局的低声爆设计中通常采用分体设计，即对机身和机翼分别布置FFD控制框，该方法高度依赖设计人员的经验，且在精细匹配截面积分布的阶段设计得到的构型容易出现小幅扭曲，在传统构型上机身小幅扭曲对气动的影响可以忽略不计，但BWB由于全升力面的特点，曲面的扭曲带来的气动代价难以忽视。基于该现状，本文采用全机CST方法作为参数化方法，保证优化过程中外形的整体连续性和光顺性。
 	该方法将全机外形用多个封闭的剖面曲线表示，每个剖面都用同阶的CST参数化，剖面之间采用三阶NURBS方法生成曲面保证曲面二阶连续。其余参数包括剖面的前后缘x坐标以及z方向偏移。基于该方法开展低声爆设计可以统一参数框架，无需根据变形后的外形重新生成FFD框重新参数化。
 	$$<图1.2 参数化方法示意>$$
-	本文首先设定客舱空间，图1为客舱的侧视图与截面示意，共40排座椅，每排4座，合160座，座椅之间的间距为0.95m，客舱高度为2m，座椅宽度为0.55m。考虑到超声速民机客舱体积较小，若再于上方设置行李架会进一步压缩空间使乘客感到不适，因此客舱内部不布置行李架，在机身后方收缩段存放行李。首先生成对称面形状，考虑客舱长度为36m，全机长度取客舱长度的两倍即72m，由于曲面沿展向延伸时会有一定的收缩，对称面客舱约束高度取2.1m，0.1m作为考虑客舱收缩的余裕。取客舱对称面的前后上下四点，机头点相对客舱中心下偏0.5m，尾部相对客舱水平中心线上偏0.55m，用CST参数拟合生成过关键点的CST曲线，从而得到对称面形状。其中，基准外形的生成对机头和机尾分别做了偏移处理，目的为增加全机有效长度，便于后续开展低声爆设计。
+	本文首先设定客舱空间，图1为客舱的侧视图与截面示意，共40排座椅，每排4座，合160座，座椅之间的间距为0.95m，客舱高度为2m，座椅宽度为0.55m。考虑到超声速民机客舱体积较小，若再于上方设置行李架会进一步压缩空间使乘客感到不适，因此客舱内部不布置行李架，在机身后方收缩段存放行李。然后基于客舱尺寸生成对称面形状，考虑客舱长度为36m，全机长度取客舱长度的两倍即72m，由于曲面沿展向延伸时会有一定的收缩，对称面客舱约束高度取2.1m，0.1m作为考虑客舱收缩的余裕。取客舱对称面的前后上下四点，机头点相对客舱中心下偏0.5m，尾部相对客舱水平中心线上偏0.55m，用CST参数拟合生成过关键点的CST曲线，从而得到对称面形状。其中，基准外形的生成对机头和机尾分别做了偏移处理，目的为增加全机有效长度，便于后续开展低声爆设计。
 	$$<图1.3 客舱截面形状示意>$$
 	之后采用一款厚度为3%的薄翼型，对远离客舱的外翼段统一配置翼型，中机身的剩余两个截面形状由外翼段与对称面的翼型参数插值得到，生成初始的气动外形。
 	为使外形的升力匹配设计重量，进一步地用三次多项式参数化前缘曲线，对初始外形进行快速增升优化，由此得到本文的基准构型。
@@ -90,4 +90,6 @@ $$<图1.2.3 F-5E算例>$$
 	$$<图3.2.3 后移V型尾翼后的外形>$$
 	之后同时对干净构型添加翼梢小翼与V尾，由于单独作用都只对后体波系的幅值产生影响，因此合并分析的结果是两者的简单叠加也是可以预料到。但显然这并不是我们希望看到的，若希望部件更有效地对波系进行调控，首先仍然需要设计机身以削弱后体波系的强度，以防止部件贡献被极强的基础波系吸收。
 ### Conclusion
-本文讨论了一款160座级的大型SBWB布局超声速民机的气动可行性与声爆可行性，在分析过程中发现了SBWB布局具有巡航攻角小，升力分布范围更大等优势，在低声爆设计中由于截面积形状更贴合客舱更加有利于等效截面积的匹配。基于上述分析结果依次采用经典的JSGD反设计方法和PNFO方法对SBWB布局进行的低声爆设计，地面声爆强度从xx降低至xx。之后针对SBWB后体波系差的缺陷开展了后体波系研究，发现翼梢小翼和V型尾翼都能有效削弱后体的过膨胀强度，地面声爆强度进一步降低至xxPLdB。研究结果证明了大座级的超声速民机不仅在经济性上具有优势，且存在通过低声爆设计降低声爆的可能性，此外在本文的研究中我们也看到了BWB布局在低声爆设计中与传统布局的诸多不同性质，这也为将BWB布局引入小座级超声速公务机提供了一定的理论支持。有一点需要说明的是，由于本文采用的构型机身尾部收缩段长度有限导致基础过膨胀强度过高，有可能一定程度上导致了翼梢小翼与V尾对波系的贡献被大幅地忽略，因此未来可以首先对机身形状进行设计削弱后体过膨胀，深入研究BWB部件对声爆波系的影响。同时针对BWB的声爆特性发展更具有针对性的低声爆设计方法以期突破当前的声爆瓶颈。
+本文讨论了一款160座级的大型SBWB布局超声速民机的气动可行性与声爆可行性。
+在分析过程中发现了SBWB布局具有巡航攻角小，升力分布范围更大等优势，在低声爆设计中由于截面积形状更贴合客舱更加有利于等效截面积的匹配。基于上述分析结果依次采用经典的JSGD反设计方法和PNFO方法对SBWB布局进行的低声爆设计，地面声爆强度从xx降低至xx。之后针对SBWB后体波系差的缺陷开展了后体波系研究，发现翼梢小翼和V型尾翼都能有效削弱后体的过膨胀强度，地面声爆强度进一步降低至xxPLdB。研究结果证明了大座级的超声速民机不仅在经济性上具有优势，且存在通过低声爆设计降低声爆的可能性，此外在本文的研究中我们也看到了BWB布局在低声爆设计中与传统布局的诸多不同性质，这也为将BWB布局引入小座级超声速公务机提供了一定的理论支持。
+有一点需要说明的是，由于本文采用的构型机身尾部收缩段长度有限导致基础过膨胀强度过高，有可能一定程度上导致了翼梢小翼与V尾对波系的贡献被大幅地忽略，因此未来可以首先对机身形状进行设计削弱后体过膨胀，深入研究BWB部件对声爆波系的影响。同时针对BWB的声爆特性发展更具有针对性的低声爆设计方法以期突破当前的声爆瓶颈。
