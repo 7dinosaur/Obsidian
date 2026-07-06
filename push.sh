@@ -2,6 +2,8 @@
 
 current_date=$(date +%Y%m%d)
 
+git pull
+
 git add .
 
 # 提交
