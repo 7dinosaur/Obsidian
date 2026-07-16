@@ -51,8 +51,13 @@ S4的HYPLANE项目，已有的商用高超方案，目前用不到
 计算范围覆盖4-15马赫（这才是真高超啊）
 
 	[10]Parametric Study of the Hypersonic Near-Field and Sonic Boom from Waveriders using a Fully-Parabolized Approach
-	[11]Computational and experimental investigation of near-field sonic boom of a HTV-2 type hypersonic boost gliding vehicle
-	[12]Rapid hypersonic sonic boom prediction using line-distributed energy impulse formulations with and without lift effect
+继承上一篇文章的CFD方法，分析高超乘波体的声爆，提到了**Loubeau & Coulouvrat**这两个人应该也是研究高超的可以查查。在马赫7的时候存在异常点，近场过压突增但是地面过压反而下降，没有解释。声爆声压级SPL频谱遵循幂律衰减，与马赫数无关，这个应该超声速也有这个规律
+
+	[11]Rapid hypersonic sonic boom prediction using line-distributed energy impulse formulations with and without lift effect
+快速计算方法研究，牛顿气动理论计算升阻力，添加了分层修正，未考虑粘性等
+
+	[12]Computational and experimental investigation of near-field sonic boom of a HTV-2 type hypersonic boost gliding vehicle
+实验和CFD验证，但是高超实验在压力轨上有严重的激波-激波干扰
 
 ### 研究内容
 
