@@ -1,7 +1,7 @@
 {
   "userName": "菠萝小恐龙",
   "permissionMode": "yolo",
-  "model": "deepseek-v4-pro[1m]",
+  "model": "haiku",
   "thinkingBudget": "off",
   "effortLevel": "high",
   "serviceTier": "default",
@@ -11,7 +11,7 @@
   "mediaFolder": "",
   "systemPrompt": "",
   "persistentExternalContextPaths": [],
-  "sharedEnvironmentVariables": "ANTHROPIC_API_KEY=sk-14b08441edaa4cbd9bcefe77c5452507\nANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic\nANTHROPIC_MODEL=deepseek-v4-pro[1m]",
+  "sharedEnvironmentVariables": "",
   "envSnippets": [],
   "customContextLimits": {},
   "keyboardNavigation": {
@@ -24,7 +24,9 @@
     "claude": {
       "safeMode": "acceptEdits",
       "cliPath": "",
-      "cliPathsByHost": {},
+      "cliPathsByHost": {
+        "DESKTOP-ULVE87V": "C:\\Users\\AMDOA506\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\node_modules\\@anthropic-ai\\claude-code-win32-x64\\claude.exe"
+      },
       "loadUserSettings": true,
       "enableChrome": false,
       "enableBangBash": false,
@@ -33,7 +35,7 @@
       "customModels": "",
       "lastModel": "haiku",
       "environmentVariables": "",
-      "environmentHash": "ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic|ANTHROPIC_MODEL=deepseek-v4-pro[1m]"
+      "environmentHash": ""
     },
     "codex": {
       "enabled": false,
@@ -63,7 +65,7 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "deepseek-v4-pro[1m]"
+    "claude": "haiku"
   },
   "savedProviderEffort": {
     "claude": "high"
@@ -75,7 +77,7 @@
   "savedProviderPermissionMode": {
     "claude": "yolo"
   },
-  "lastCustomModel": "",
+  "lastCustomModel": "deepseek-v4-pro[1m]",
   "maxTabs": 3,
   "tabBarPosition": "input",
   "enableAutoScroll": true,

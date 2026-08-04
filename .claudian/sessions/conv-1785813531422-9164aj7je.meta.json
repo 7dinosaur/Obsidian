@@ -1,0 +1,24 @@
+{
+  "id": "conv-1785813531422-9164aj7je",
+  "providerId": "claude",
+  "title": "Analyze research background logical gaps",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785813531423,
+  "updatedAt": 1785848445507,
+  "lastResponseAt": 1785848445507,
+  "sessionId": "3995b9f3-9558-4a3d-af85-9b91afdcc053",
+  "providerState": {
+    "providerSessionId": "3995b9f3-9558-4a3d-af85-9b91afdcc053"
+  },
+  "currentNote": "论文/航迹规划/流体力学会议ppt.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 85,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 146688,
+    "contextWindow": 200000,
+    "contextTokens": 146773,
+    "percentage": 73,
+    "contextWindowIsAuthoritative": true
+  }
+}

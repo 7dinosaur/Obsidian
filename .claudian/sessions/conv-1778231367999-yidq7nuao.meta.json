@@ -1,16 +1,30 @@
 {
   "id": "conv-1778231367999-yidq7nuao",
   "providerId": "claude",
-  "title": "我需要检测你是否应用了我设置的环境变量，介绍你自己",
-  "titleGenerationStatus": "pending",
+  "title": "测试功能并询问模型身份",
+  "titleGenerationStatus": "success",
   "createdAt": 1778231368002,
-  "updatedAt": 1778231997468,
-  "lastResponseAt": 1778231923863,
-  "sessionId": "c71d7cdb-dda8-4ccc-bc72-c29d8ce45110",
+  "updatedAt": 1785813469771,
+  "lastResponseAt": 1785812614042,
+  "sessionId": "56db8445-f449-4aca-b1c2-003a206e82af",
   "providerState": {
-    "providerSessionId": "c71d7cdb-dda8-4ccc-bc72-c29d8ce45110",
+    "providerSessionId": "56db8445-f449-4aca-b1c2-003a206e82af",
     "previousProviderSessionIds": [
-      "68b1db94-f615-4a8f-b0cb-b2c46da765b6"
+      "68b1db94-f615-4a8f-b0cb-b2c46da765b6",
+      "c71d7cdb-dda8-4ccc-bc72-c29d8ce45110"
     ]
+  },
+  "externalContextPaths": [
+    "D:\\hyper_ly\\05_Personal\\05_Obsidian\\三真千机百法丝引球\\论文\\航迹规划"
+  ],
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 248,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 58752,
+    "contextWindow": 200000,
+    "contextTokens": 59000,
+    "percentage": 30,
+    "contextWindowIsAuthoritative": true
   }
 }
