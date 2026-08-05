@@ -1,0 +1,24 @@
+{
+  "id": "conv-1785896413286-zs2a2f14g",
+  "providerId": "claude",
+  "title": "Read and describe images in pic folder",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785896413286,
+  "updatedAt": 1785912736567,
+  "lastResponseAt": 1785912736567,
+  "sessionId": "0c202f4f-2f56-41a0-b2dd-420b23f752a3",
+  "providerState": {
+    "providerSessionId": "0c202f4f-2f56-41a0-b2dd-420b23f752a3"
+  },
+  "currentNote": "essay/route_planning/流体力学会议ppt.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 506,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 61952,
+    "contextWindow": 200000,
+    "contextTokens": 62458,
+    "percentage": 31,
+    "contextWindowIsAuthoritative": true
+  }
+}
